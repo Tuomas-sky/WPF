@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "framework_06_Page_navigation/1.0.0": {
+        "runtime": {
+          "framework_06_Page_navigation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "framework_06_Page_navigation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

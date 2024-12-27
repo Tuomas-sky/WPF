@@ -1,0 +1,9 @@
+C:\work\wpf\CSharp_event\bin\Debug\CSharp_event.exe.config
+C:\work\wpf\CSharp_event\bin\Debug\CSharp_event.exe
+C:\work\wpf\CSharp_event\bin\Debug\CSharp_event.pdb
+C:\work\wpf\CSharp_event\obj\Debug\CSharp_event.csproj.AssemblyReference.cache
+C:\work\wpf\CSharp_event\obj\Debug\CSharp_event.Properties.Resources.resources
+C:\work\wpf\CSharp_event\obj\Debug\CSharp_event.csproj.GenerateResource.cache
+C:\work\wpf\CSharp_event\obj\Debug\CSharp_event.csproj.CoreCompileInputs.cache
+C:\work\wpf\CSharp_event\obj\Debug\CSharp_event.exe
+C:\work\wpf\CSharp_event\obj\Debug\CSharp_event.pdb
