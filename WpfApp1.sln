@@ -17,11 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "framework_04_DependencyProp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "framework_04_DependencyProperty_Attach", "framework_04_DependencyProperty_Attach\framework_04_DependencyProperty_Attach.csproj", "{EB71CCDE-7E8D-4F9B-8304-A0C71731AC78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "framework_05_RouteEvent", "framework_05_RouteEvent\framework_05_RouteEvent.csproj", "{A7445E64-0C15-4CD4-99B9-EBBEB4E63562}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "framework_05_RouteEvent", "framework_05_RouteEvent\framework_05_RouteEvent.csproj", "{A7445E64-0C15-4CD4-99B9-EBBEB4E63562}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "framework_06_page", "framework_06_page\framework_06_page.csproj", "{CC89DBCA-0AB6-4033-8F0F-915F32B9A30B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "framework_06_page", "framework_06_page\framework_06_page.csproj", "{CC89DBCA-0AB6-4033-8F0F-915F32B9A30B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "framework_06_Page_navigation", "framework_06_Page_navigation\framework_06_Page_navigation.csproj", "{E066E96A-6D02-4A66-B659-3F38CF5F104D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "framework_06_Page_navigation", "framework_06_Page_navigation\framework_06_Page_navigation.csproj", "{E066E96A-6D02-4A66-B659-3F38CF5F104D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_01", "CSharp_01\CSharp_01.csproj", "{9110FAA2-D17E-422C-93A0-1480375FC390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_event", "CSharp_event\CSharp_event.csproj", "{A5E2B76A-F4BA-4FBE-B52D-4DD9B79D1F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_delegate_event", "CSharp_delegate_event\CSharp_delegate_event.csproj", "{DBC29610-6520-4359-AA2D-A8934B2052A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{E066E96A-6D02-4A66-B659-3F38CF5F104D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E066E96A-6D02-4A66-B659-3F38CF5F104D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E066E96A-6D02-4A66-B659-3F38CF5F104D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9110FAA2-D17E-422C-93A0-1480375FC390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9110FAA2-D17E-422C-93A0-1480375FC390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9110FAA2-D17E-422C-93A0-1480375FC390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9110FAA2-D17E-422C-93A0-1480375FC390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E2B76A-F4BA-4FBE-B52D-4DD9B79D1F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E2B76A-F4BA-4FBE-B52D-4DD9B79D1F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E2B76A-F4BA-4FBE-B52D-4DD9B79D1F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E2B76A-F4BA-4FBE-B52D-4DD9B79D1F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC29610-6520-4359-AA2D-A8934B2052A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC29610-6520-4359-AA2D-A8934B2052A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC29610-6520-4359-AA2D-A8934B2052A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC29610-6520-4359-AA2D-A8934B2052A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

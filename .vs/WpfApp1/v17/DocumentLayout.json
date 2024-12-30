@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\Project\\wpf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E066E96A-6D02-4A66-B659-3F38CF5F104D}|framework_06_Page_navigation\\framework_06_Page_navigation.csproj|d:\\project\\wpf\\framework_06_page_navigation\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E066E96A-6D02-4A66-B659-3F38CF5F104D}|framework_06_Page_navigation\\framework_06_Page_navigation.csproj|solutionrelative:framework_06_page_navigation\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E066E96A-6D02-4A66-B659-3F38CF5F104D}|framework_06_Page_navigation\\framework_06_Page_navigation.csproj|d:\\project\\wpf\\framework_06_page_navigation\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E066E96A-6D02-4A66-B659-3F38CF5F104D}|framework_06_Page_navigation\\framework_06_Page_navigation.csproj|solutionrelative:framework_06_page_navigation\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E066E96A-6D02-4A66-B659-3F38CF5F104D}|framework_06_Page_navigation\\framework_06_Page_navigation.csproj|d:\\project\\wpf\\framework_06_page_navigation\\pagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E066E96A-6D02-4A66-B659-3F38CF5F104D}|framework_06_Page_navigation\\framework_06_Page_navigation.csproj|solutionrelative:framework_06_page_navigation\\pagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E066E96A-6D02-4A66-B659-3F38CF5F104D}|framework_06_Page_navigation\\framework_06_Page_navigation.csproj|d:\\project\\wpf\\framework_06_page_navigation\\pagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E066E96A-6D02-4A66-B659-3F38CF5F104D}|framework_06_Page_navigation\\framework_06_Page_navigation.csproj|solutionrelative:framework_06_page_navigation\\pagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E066E96A-6D02-4A66-B659-3F38CF5F104D}|framework_06_Page_navigation\\framework_06_Page_navigation.csproj|d:\\project\\wpf\\framework_06_page_navigation\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E066E96A-6D02-4A66-B659-3F38CF5F104D}|framework_06_Page_navigation\\framework_06_Page_navigation.csproj|solutionrelative:framework_06_page_navigation\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBC29610-6520-4359-AA2D-A8934B2052A8}|CSharp_delegate_event\\CSharp_delegate_event.csproj|d:\\project\\wpf\\csharp_delegate_event\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC29610-6520-4359-AA2D-A8934B2052A8}|CSharp_delegate_event\\CSharp_delegate_event.csproj|solutionrelative:csharp_delegate_event\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,62 +30,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Page2.xaml",
-              "DocumentMoniker": "D:\\Project\\wpf\\framework_06_Page_navigation\\Page2.xaml",
-              "RelativeDocumentMoniker": "framework_06_Page_navigation\\Page2.xaml",
-              "ToolTip": "D:\\Project\\wpf\\framework_06_Page_navigation\\Page2.xaml",
-              "RelativeToolTip": "framework_06_Page_navigation\\Page2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-25T08:59:31.963Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Page2.xaml.cs",
-              "DocumentMoniker": "D:\\Project\\wpf\\framework_06_Page_navigation\\Page2.xaml.cs",
-              "RelativeDocumentMoniker": "framework_06_Page_navigation\\Page2.xaml.cs",
-              "ToolTip": "D:\\Project\\wpf\\framework_06_Page_navigation\\Page2.xaml.cs",
-              "RelativeToolTip": "framework_06_Page_navigation\\Page2.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\wpf\\CSharp_delegate_event\\Program.cs",
+              "RelativeDocumentMoniker": "CSharp_delegate_event\\Program.cs",
+              "ToolTip": "D:\\Project\\wpf\\CSharp_delegate_event\\Program.cs",
+              "RelativeToolTip": "CSharp_delegate_event\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAEwFkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:59:30.43Z",
+              "WhenOpened": "2024-12-30T02:47:54.234Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Page1.xaml.cs",
-              "DocumentMoniker": "D:\\Project\\wpf\\framework_06_Page_navigation\\Page1.xaml.cs",
-              "RelativeDocumentMoniker": "framework_06_Page_navigation\\Page1.xaml.cs",
-              "ToolTip": "D:\\Project\\wpf\\framework_06_Page_navigation\\Page1.xaml.cs",
-              "RelativeToolTip": "framework_06_Page_navigation\\Page1.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAADwvxQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:52:12.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PageWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Project\\wpf\\framework_06_Page_navigation\\PageWindow.xaml.cs",
-              "RelativeDocumentMoniker": "framework_06_Page_navigation\\PageWindow.xaml.cs",
-              "ToolTip": "D:\\Project\\wpf\\framework_06_Page_navigation\\PageWindow.xaml.cs",
-              "RelativeToolTip": "framework_06_Page_navigation\\PageWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxkAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T08:40:39.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PageWindow.xaml",
-              "DocumentMoniker": "D:\\Project\\wpf\\framework_06_Page_navigation\\PageWindow.xaml",
-              "RelativeDocumentMoniker": "framework_06_Page_navigation\\PageWindow.xaml",
-              "ToolTip": "D:\\Project\\wpf\\framework_06_Page_navigation\\PageWindow.xaml",
-              "RelativeToolTip": "framework_06_Page_navigation\\PageWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-25T08:39:17.721Z"
             }
           ]
         }

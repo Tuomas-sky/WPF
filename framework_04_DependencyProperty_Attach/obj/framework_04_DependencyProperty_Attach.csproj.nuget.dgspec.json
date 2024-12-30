@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\work\\wpf\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj": {}
+    "D:\\Project\\wpf\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj": {}
   },
   "projects": {
-    "C:\\work\\wpf\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj": {
+    "D:\\Project\\wpf\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\wpf\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj",
+        "projectUniqueName": "D:\\Project\\wpf\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj",
         "projectName": "framework_04_DependencyProperty_Attach",
-        "projectPath": "C:\\work\\wpf\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj",
+        "projectPath": "D:\\Project\\wpf\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\wpf\\framework_04_DependencyProperty_Attach\\obj\\",
+        "outputPath": "D:\\Project\\wpf\\framework_04_DependencyProperty_Attach\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
