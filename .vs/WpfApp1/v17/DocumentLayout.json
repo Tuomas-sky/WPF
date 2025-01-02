@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Project\\wpf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBC29610-6520-4359-AA2D-A8934B2052A8}|CSharp_delegate_event\\CSharp_delegate_event.csproj|d:\\project\\wpf\\csharp_delegate_event\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC29610-6520-4359-AA2D-A8934B2052A8}|CSharp_delegate_event\\CSharp_delegate_event.csproj|solutionrelative:csharp_delegate_event\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69AB2E80-3865-4AE5-89B2-AD7EC38063C8}|TestDll\\TestDll.csproj|d:\\project\\wpf\\testdll\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69AB2E80-3865-4AE5-89B2-AD7EC38063C8}|TestDll\\TestDll.csproj|solutionrelative:testdll\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C9A05BE-B3E2-48C2-A16C-63CDF5211226}|lib\\cppdll\\cppdll.vcxproj|D:\\Project\\wpf\\lib\\cppdll\\CppDll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C9A05BE-B3E2-48C2-A16C-63CDF5211226}|lib\\cppdll\\cppdll.vcxproj|solutionrelative:lib\\cppdll\\CppDll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C9A05BE-B3E2-48C2-A16C-63CDF5211226}|lib\\cppdll\\cppdll.vcxproj|D:\\Project\\wpf\\lib\\cppdll\\CppDll.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C9A05BE-B3E2-48C2-A16C-63CDF5211226}|lib\\cppdll\\cppdll.vcxproj|solutionrelative:lib\\cppdll\\CppDll.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,21 +33,42 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Project\\wpf\\CSharp_delegate_event\\Program.cs",
-              "RelativeDocumentMoniker": "CSharp_delegate_event\\Program.cs",
-              "ToolTip": "D:\\Project\\wpf\\CSharp_delegate_event\\Program.cs",
-              "RelativeToolTip": "CSharp_delegate_event\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAEwFkAAAAcAAAA",
+              "DocumentMoniker": "D:\\Project\\wpf\\TestDll\\Program.cs",
+              "RelativeDocumentMoniker": "TestDll\\Program.cs",
+              "ToolTip": "D:\\Project\\wpf\\TestDll\\Program.cs",
+              "RelativeToolTip": "TestDll\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T02:47:54.234Z",
+              "WhenOpened": "2025-01-02T09:23:07.418Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CppDll.cpp",
+              "DocumentMoniker": "D:\\Project\\wpf\\lib\\cppdll\\CppDll.cpp",
+              "RelativeDocumentMoniker": "lib\\cppdll\\CppDll.cpp",
+              "ToolTip": "D:\\Project\\wpf\\lib\\cppdll\\CppDll.cpp",
+              "RelativeToolTip": "lib\\cppdll\\CppDll.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-02T08:43:28.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CppDll.h",
+              "DocumentMoniker": "D:\\Project\\wpf\\lib\\cppdll\\CppDll.h",
+              "RelativeDocumentMoniker": "lib\\cppdll\\CppDll.h",
+              "ToolTip": "D:\\Project\\wpf\\lib\\cppdll\\CppDll.h",
+              "RelativeToolTip": "lib\\cppdll\\CppDll.h",
+              "ViewState": "AQIAABYAAAAAAAAAAAAiwB8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-02T08:23:01.231Z"
             }
           ]
         }
