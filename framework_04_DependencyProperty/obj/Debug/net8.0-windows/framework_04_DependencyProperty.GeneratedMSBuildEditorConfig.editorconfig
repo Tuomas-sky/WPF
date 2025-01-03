@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = framework_04_DependencyProperty
-build_property.ProjectDir = D:\Project\wpf\framework_04_DependencyProperty\
+build_property.ProjectDir = D:\Project\C#_wpf\framework_04_DependencyProperty\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

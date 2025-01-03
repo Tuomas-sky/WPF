@@ -80,3 +80,19 @@ int* GetArrayFromCPP()
 	}
 	return arrPtr;
 }
+
+void SayHello(char* name)
+{
+	cout << "hello, " << name << endl;
+}
+
+void RegisterCallback(CallBack cb)
+{
+	int result = cb(10, 20);
+	cout << "callback result=" << result << endl;
+}
+
+ int(*GetFuncPtr())(int, int)//返回一个函数指针
+{
+	return &Sub;
+}

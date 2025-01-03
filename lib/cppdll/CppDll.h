@@ -41,4 +41,22 @@ _EXTERN_C_ void PrintArrayThroughCPP(int* first, int length);
 //在C++中生成一个整型数组，并且数组指针返回给C#
 _EXTERN_C_ int* GetArrayFromCPP();
 
+_EXTERN_C_ void SayHello(char* name);
+
+//定义一个接受函数指针的函数，接受并调用函数指针，导出注册函数
+extern "C" typedef int(*CallBack)(int, int);
+_EXTERN_C_ void RegisterCallback(CallBack cb);
+
+//C++向C#传递函数指针，导出函数指针
+extern "C" int Sub(int x, int y) { return x - y; }
+_EXTERN_C_ int(*GetFuncPtr())(int, int);
+
+//导出类
+class __declspec(dllexport)  TestClass {
+public :
+	TestClass() {};
+	int Sub(int x, int y) { return x - y; }
+};
+
+
 #endif // !__CPPDLL_H__
