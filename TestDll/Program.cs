@@ -7,6 +7,40 @@ using System.Threading.Tasks;
 
 namespace TestDll
 {
+
+    //委托-事件
+    //1、定义一个委托，作为事件的基础
+    public delegate void NotificationHandler(string msg);
+    //2、发布者类
+    public class Publisher
+    {
+        //3、 定义基于自定义委托的事件   
+        public event NotificationHandler Notify;
+        //4、触发事件的方法
+        public void OnNotify(string msg) {
+            Console.WriteLine($"正在触发通知：{msg}");
+            Notify?.Invoke(msg);
+        }
+    }
+    //5、订阅者类
+    public class Listener
+    {
+        private Publisher _publisher;
+        public Listener(Publisher publisher) { 
+            _publisher = publisher;
+            _publisher.Notify += HandleNotification;
+        }
+
+        private void HandleNotification(string msg)
+        {
+            Console.WriteLine($"收到通知: {msg}");
+        }
+        private void Unregister() { 
+            _publisher.Notify -= HandleNotification;
+        }
+    }
+
+
     internal class Program
     {
         public delegate void CSCallback(int tick);
@@ -50,7 +84,7 @@ namespace TestDll
             Console.WriteLine($"C# Callback called with values: {x}, {y}");
             return x + y;
         }
-        [DllImport("cppdll.dll",CharSet = CharSet.Auto,CallingConvention =CallingConvention.Cdecl)]
+        [DllImport("cppdll.dll",EntryPoint = "RegisterCallback", CharSet = CharSet.Auto,CallingConvention =CallingConvention.Cdecl)]
         public extern static void RegisterCallback(IntPtr callback);
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -58,9 +92,21 @@ namespace TestDll
         //C #端：将函数指针转换为委托并调用。
         //C#代码：接收并调用C++的函数指针
         public delegate int FuncPtr(int x, int y);
-        [DllImport("cppdll.dll",CharSet=CharSet.Auto,CallingConvention =CallingConvention.Cdecl)]
+        [DllImport("cppdll.dll",EntryPoint= "GetFuncPtr", CharSet=CharSet.Auto,CallingConvention =CallingConvention.Cdecl)]
         public extern static IntPtr GetFuncPtr();
 
+        //回调机制
+        public delegate void FileProcessCallbcak(string msg);
+        //事件处理
+        public class Button
+        {
+            public event EventHandler Click;
+            public void OnClick()
+            {
+                Console.WriteLine("事件被点击");
+                Click?.Invoke(this, EventArgs.Empty);
+            }
+        }
 
 
 
@@ -87,14 +133,47 @@ namespace TestDll
             //RegisterCallback(cbptr);
             //GC.KeepAlive(cb);//避免委托被回收
             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            IntPtr ptr = GetFuncPtr();
-            FuncPtr func = (FuncPtr)Marshal.GetDelegateForFunctionPointer(ptr,typeof(FuncPtr));
-            int result = func(15, 7);
-            Console.WriteLine($"Result from C++ function: {result}");
+            //IntPtr ptr = GetFuncPtr();
+            //FuncPtr func = (FuncPtr)Marshal.GetDelegateForFunctionPointer(ptr,typeof(FuncPtr));
+            //int result = func(15, 7);
+            //Console.WriteLine($"Result from C++ function: {result}");
 
+            ////回调机制
+            //string filename = "test.txt";
+            //ProcessFile(filename, OnFileProcessed);
+            //事件处理
+            //var btn = new Button();
+            //btn.Click += Btn_Click;
+            //btn.Click += Btn_Click1;//多播委托
+            //btn.OnClick();
+
+            //Publisher publisher = new Publisher();
+            //Listener listener = new Listener(publisher);
+            //publisher.OnNotify("模拟订阅");
 
 
             Console.ReadKey();
         }
+
+        private static void Btn_Click1(object sender, EventArgs e)
+        {
+            Console.WriteLine("处理按钮点击事件11111");
+        }
+
+        private static void Btn_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("处理按钮点击事件");
+        }
+
+        static void ProcessFile(string filename,FileProcessCallbcak cb)
+        {
+            Console.WriteLine($"正在处理文件：{filename}");
+            cb("文件处理完成");
+        }
+        static void OnFileProcessed(string msg) {
+            Console.WriteLine(msg);
+        }
+   
+    
     }
 }
