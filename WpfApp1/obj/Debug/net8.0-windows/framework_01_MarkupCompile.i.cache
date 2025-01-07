@@ -4,12 +4,12 @@
 winexe
 C#
 .cs
-D:\Project\C#_wpf\WpfApp1\obj\Debug\net8.0-windows\
+D:\Project\wpf\WPF\WpfApp1\obj\Debug\net8.0-windows\
 framework_01
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Project\C#_wpf\WpfApp1\App.xaml
+D:\Project\wpf\WPF\WpfApp1\App.xaml
 21989492676
 
 61618745218

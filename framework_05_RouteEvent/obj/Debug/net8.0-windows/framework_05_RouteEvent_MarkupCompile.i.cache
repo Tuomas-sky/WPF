@@ -4,12 +4,12 @@
 winexe
 C#
 .cs
-D:\Project\C#_wpf\framework_05_RouteEvent\obj\Debug\net8.0-windows\
+D:\Project\wpf\WPF\framework_05_RouteEvent\obj\Debug\net8.0-windows\
 framework_05_RouteEvent
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Project\C#_wpf\framework_05_RouteEvent\App.xaml
+D:\Project\wpf\WPF\framework_05_RouteEvent\App.xaml
 2-560428180
 
 7-241958484

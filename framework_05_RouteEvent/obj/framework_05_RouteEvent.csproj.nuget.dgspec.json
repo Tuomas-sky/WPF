@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\C#_wpf\\framework_05_RouteEvent\\framework_05_RouteEvent.csproj": {}
+    "D:\\Project\\wpf\\WPF\\framework_05_RouteEvent\\framework_05_RouteEvent.csproj": {}
   },
   "projects": {
-    "D:\\Project\\C#_wpf\\framework_05_RouteEvent\\framework_05_RouteEvent.csproj": {
+    "D:\\Project\\wpf\\WPF\\framework_05_RouteEvent\\framework_05_RouteEvent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\C#_wpf\\framework_05_RouteEvent\\framework_05_RouteEvent.csproj",
+        "projectUniqueName": "D:\\Project\\wpf\\WPF\\framework_05_RouteEvent\\framework_05_RouteEvent.csproj",
         "projectName": "framework_05_RouteEvent",
-        "projectPath": "D:\\Project\\C#_wpf\\framework_05_RouteEvent\\framework_05_RouteEvent.csproj",
+        "projectPath": "D:\\Project\\wpf\\WPF\\framework_05_RouteEvent\\framework_05_RouteEvent.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\C#_wpf\\framework_05_RouteEvent\\obj\\",
+        "outputPath": "D:\\Project\\wpf\\WPF\\framework_05_RouteEvent\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

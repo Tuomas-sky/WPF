@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\C#_wpf\\framework_04_DependencyProperty\\framework_04_DependencyProperty.csproj",
+      "projectUniqueName": "D:\\Project\\wpf\\WPF\\framework_04_DependencyProperty\\framework_04_DependencyProperty.csproj",
       "projectName": "framework_04_DependencyProperty",
-      "projectPath": "D:\\Project\\C#_wpf\\framework_04_DependencyProperty\\framework_04_DependencyProperty.csproj",
+      "projectPath": "D:\\Project\\wpf\\WPF\\framework_04_DependencyProperty\\framework_04_DependencyProperty.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\C#_wpf\\framework_04_DependencyProperty\\obj\\",
+      "outputPath": "D:\\Project\\wpf\\WPF\\framework_04_DependencyProperty\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

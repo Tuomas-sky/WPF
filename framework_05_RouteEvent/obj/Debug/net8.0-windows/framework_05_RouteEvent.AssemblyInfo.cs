@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("framework_05_RouteEvent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98eed2e73ed487a7fab6c79ec5957682b846fdf3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1837445188b913ac6f1574df48bd94f80c924910")]
 [assembly: System.Reflection.AssemblyProductAttribute("framework_05_RouteEvent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("framework_05_RouteEvent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

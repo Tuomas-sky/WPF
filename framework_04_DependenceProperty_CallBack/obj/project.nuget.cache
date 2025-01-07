@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jKNbXQEoFQo=",
+  "dgSpecHash": "8Fz1+KeP+YQ=",
   "success": true,
-  "projectFilePath": "D:\\Project\\C#_wpf\\framework_04_DependenceProperty_CallBack\\framework_04_DependencyProperty_CallBack.csproj",
+  "projectFilePath": "D:\\Project\\wpf\\WPF\\framework_04_DependenceProperty_CallBack\\framework_04_DependencyProperty_CallBack.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
