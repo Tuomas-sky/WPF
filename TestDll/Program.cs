@@ -151,8 +151,16 @@ namespace TestDll
             //Listener listener = new Listener(publisher);
             //publisher.OnNotify("模拟订阅");
 
-
+            //Console.WriteLine(Average(1,2,3,4,5));
             Console.ReadKey();
+        }
+        static double Average(params int[] data) { 
+        
+            int sum = 0;
+            for (int i = 0; i < data.Length; i++) { 
+                sum += data[i];
+            }
+            return sum / data.Length;
         }
 
         private static void Btn_Click1(object sender, EventArgs e)

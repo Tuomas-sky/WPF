@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,6 +33,10 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
@@ -40,7 +44,7 @@
               "RelativeDocumentMoniker": "TestDll\\Program.cs",
               "ToolTip": "D:\\Project\\C#_wpf\\TestDll\\Program.cs*",
               "RelativeToolTip": "TestDll\\Program.cs*",
-              "ViewState": "AQIAAIAAAAAAAAAAAAASwJIAAAAsAAAA",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAIwJUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T09:23:07.418Z",
               "EditorCaption": ""
