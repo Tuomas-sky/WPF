@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Project\wpf\WPF\framework_04_DependenceProperty_CallBack\obj\Debug\net8.0-windows\
+D:\Project\CSWPF\framework_04_DependenceProperty_CallBack\obj\Debug\net8.0-windows\
 framework_04_DependencyProperty_CallBack
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Project\wpf\WPF\framework_04_DependenceProperty_CallBack\App.xaml
+D:\Project\CSWPF\framework_04_DependenceProperty_CallBack\App.xaml
 2864114080
 
 7-1228912377
-198-1509178875
+198-352714763
 Controls\TrayControl.xaml;MainWindow.xaml;
 
 False

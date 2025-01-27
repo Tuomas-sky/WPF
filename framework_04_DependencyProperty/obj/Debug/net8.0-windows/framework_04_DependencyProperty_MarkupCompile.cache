@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\work\wpf\framework_04_DependencyProperty\obj\Debug\net8.0-windows\
+D:\Project\CSWPF\framework_04_DependencyProperty\obj\Debug\net8.0-windows\
 framework_04_DependencyProperty
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\work\wpf\framework_04_DependencyProperty\App.xaml
+D:\Project\CSWPF\framework_04_DependencyProperty\App.xaml
 2-560428180
 
 5829861662
-198-1509178875
+198-352714763
 Controls\Widget.xaml;MainWindow.xaml;
 
 False

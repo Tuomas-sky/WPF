@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\wpf\\WPF\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj",
+      "projectUniqueName": "D:\\Project\\CSWPF\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj",
       "projectName": "framework_04_DependencyProperty_Attach",
-      "projectPath": "D:\\Project\\wpf\\WPF\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj",
+      "projectPath": "D:\\Project\\CSWPF\\framework_04_DependencyProperty_Attach\\framework_04_DependencyProperty_Attach.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\wpf\\WPF\\framework_04_DependencyProperty_Attach\\obj\\",
+      "outputPath": "D:\\Project\\CSWPF\\framework_04_DependencyProperty_Attach\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,7 +74,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

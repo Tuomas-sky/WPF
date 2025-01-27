@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\wpf\\WPF\\wpf_02_template\\framework_02_template.csproj",
+      "projectUniqueName": "D:\\Project\\CSWPF\\wpf_02_template\\framework_02_template.csproj",
       "projectName": "framework_02_template",
-      "projectPath": "D:\\Project\\wpf\\WPF\\wpf_02_template\\framework_02_template.csproj",
+      "projectPath": "D:\\Project\\CSWPF\\wpf_02_template\\framework_02_template.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\wpf\\WPF\\wpf_02_template\\obj\\",
+      "outputPath": "D:\\Project\\CSWPF\\wpf_02_template\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,7 +74,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

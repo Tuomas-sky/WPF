@@ -10,9 +10,9 @@
     <!--<Window.DataContext>
         <local:MainViewModel/>
     </Window.DataContext>-->
-     <Window.DataContext>
+     <!--<Window.DataContext>
         <local:MainViewModel/>
-    </Window.DataContext>
+    </Window.DataContext>-->
     <!--1、实例化一个RouteUICommand命令-->
     <!--<Window.Resources>
         <RoutedUICommand x:Key="PlayCommand" Text="Play"/>
@@ -32,7 +32,7 @@
     </Window.InputBindings>--> 
     
     <!--ApplicationCommands命令实战-->
-    <Window.CommandBindings>
+    <!--<Window.CommandBindings>
         <CommandBinding Command="ApplicationCommands.Open"  
                     CanExecute="OpenCommandCanExecute" 
                     Executed="OpenCommandExecuted"  />
@@ -54,7 +54,7 @@
         <KeyBinding Key="V" Modifiers="Control" Command="ApplicationCommands.Paste" />
         <KeyBinding Key="S" Modifiers="Control" Command="ApplicationCommands.Save" />
         <KeyBinding Key="O" Modifiers="Control" Command="ApplicationCommands.Open" />
-    </Window.InputBindings>
+    </Window.InputBindings>-->
 
     <Grid>
         <!--ICommand实现-->
@@ -76,7 +76,7 @@
                 CommandParameter="{Binding RelativeSource={RelativeSource Mode=Self}}"/>
         </StackPanel>-->
         <!--Application-->
-        <Grid.RowDefinitions>
+        <!--<Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition/>
             <RowDefinition/>
@@ -92,9 +92,9 @@
             <Button Content="Prism合并命令" Margin="5" Command="{Binding CompositeCommand}" CommandParameter="CompositeCommand"/>
         </StackPanel>
         
-        <!--<TextBox x:Name="textbox" Grid.Row="1" Margin="5" TextWrapping="Wrap">
+        --><!--<TextBox x:Name="textbox" Grid.Row="1" Margin="5" TextWrapping="Wrap">
         </TextBox>-->
-        <!--WPF事件转Command命令-->
+        <!--WPF事件转Command命令--><!--
         <TextBox x:Name="textbox" Grid.Row="2" Margin="5" TextWrapping="Wrap">
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="PreviewMouseDown">
@@ -104,7 +104,7 @@
                 </i:EventTrigger>
             </i:Interaction.Triggers>
         </TextBox>
-        <!--ReactiveCommand-->
+        --><!--ReactiveCommand--><!--
         <StackPanel Grid.Row="1">
             <TextBlock Text="ReactiveUI之ReactiveCommand" FontSize="28" Margin="5"/>
             <StackPanel Orientation="Horizontal">
@@ -115,6 +115,6 @@
                 <Button Margin="5" Content="合并命令" Command="{Binding CombinedCommand}"/>
                 <Button Margin="5" Content="Observable命令" Command="{Binding ObservableCommand}"/>
             </StackPanel>
-        </StackPanel>
+        </StackPanel>-->
     </Grid>
 </Window>

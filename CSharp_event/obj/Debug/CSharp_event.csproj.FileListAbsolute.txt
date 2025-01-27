@@ -7,3 +7,12 @@ C:\work\wpf\CSharp_event\obj\Debug\CSharp_event.csproj.GenerateResource.cache
 C:\work\wpf\CSharp_event\obj\Debug\CSharp_event.csproj.CoreCompileInputs.cache
 C:\work\wpf\CSharp_event\obj\Debug\CSharp_event.exe
 C:\work\wpf\CSharp_event\obj\Debug\CSharp_event.pdb
+D:\Project\CSWPF\CSharp_event\bin\Debug\CSharp_event.exe.config
+D:\Project\CSWPF\CSharp_event\bin\Debug\CSharp_event.exe
+D:\Project\CSWPF\CSharp_event\bin\Debug\CSharp_event.pdb
+D:\Project\CSWPF\CSharp_event\obj\Debug\CSharp_event.csproj.AssemblyReference.cache
+D:\Project\CSWPF\CSharp_event\obj\Debug\CSharp_event.Properties.Resources.resources
+D:\Project\CSWPF\CSharp_event\obj\Debug\CSharp_event.csproj.GenerateResource.cache
+D:\Project\CSWPF\CSharp_event\obj\Debug\CSharp_event.csproj.CoreCompileInputs.cache
+D:\Project\CSWPF\CSharp_event\obj\Debug\CSharp_event.exe
+D:\Project\CSWPF\CSharp_event\obj\Debug\CSharp_event.pdb

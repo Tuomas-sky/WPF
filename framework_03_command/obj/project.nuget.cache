@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AzCRs8uED5U=",
+  "dgSpecHash": "noP4P94ziso=",
   "success": true,
-  "projectFilePath": "D:\\Project\\wpf\\WPF\\framework_03_command\\framework_03_command.csproj",
+  "projectFilePath": "D:\\Project\\CSWPF\\framework_03_command\\framework_03_command.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\dynamicdata\\9.0.4\\dynamicdata.9.0.4.nupkg.sha512",
