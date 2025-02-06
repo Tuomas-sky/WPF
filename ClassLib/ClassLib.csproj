@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\MyLib.cs" />
+    <Compile Include="MyNamespace2\Student.cs" />
     <Compile Include="MyNamespace\Calculator.cs" />
+    <Compile Include="OOPoverride\Override.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\Project\\CSWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4F650AB-9C12-4D46-AEEA-E4EA885A94DC}|Timthy_01\\Timthy_01.csproj|d:\\project\\cswpf\\timthy_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4F650AB-9C12-4D46-AEEA-E4EA885A94DC}|Timthy_01\\Timthy_01.csproj|solutionrelative:timthy_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E024855B-70CE-48B2-87DC-CACA25E336F4}|ClassLib\\ClassLib.csproj|d:\\project\\cswpf\\classlib\\mynamespace\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E024855B-70CE-48B2-87DC-CACA25E336F4}|ClassLib\\ClassLib.csproj|solutionrelative:classlib\\mynamespace\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69AB2E80-3865-4AE5-89B2-AD7EC38063C8}|TestDll\\TestDll.csproj|D:\\Project\\CSWPF\\testdll\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69AB2E80-3865-4AE5-89B2-AD7EC38063C8}|TestDll\\TestDll.csproj|solutionrelative:testdll\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C9A05BE-B3E2-48C2-A16C-63CDF5211226}|lib\\cppdll\\cppdll.vcxproj|D:\\Project\\CSWPF\\lib\\cppdll\\CppDll.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C9A05BE-B3E2-48C2-A16C-63CDF5211226}|lib\\cppdll\\cppdll.vcxproj|solutionrelative:lib\\cppdll\\CppDll.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C9A05BE-B3E2-48C2-A16C-63CDF5211226}|lib\\cppdll\\cppdll.vcxproj|D:\\Project\\CSWPF\\lib\\cppdll\\CppDll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C9A05BE-B3E2-48C2-A16C-63CDF5211226}|lib\\cppdll\\cppdll.vcxproj|solutionrelative:lib\\cppdll\\CppDll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}|Timothy_02_interfce\u0026abstract\\Timothy_02_interfce\u0026abstract.csproj|d:\\project\\cswpf\\timothy_02_interfce\u0026abstract\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}|Timothy_02_interfce\u0026abstract\\Timothy_02_interfce\u0026abstract.csproj|solutionrelative:timothy_02_interfce\u0026abstract\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\CSWPF\\Timothy_02_interfce\u0026abstract\\Program.cs",
+              "RelativeDocumentMoniker": "Timothy_02_interfce\u0026abstract\\Program.cs",
+              "ToolTip": "D:\\Project\\CSWPF\\Timothy_02_interfce\u0026abstract\\Program.cs*",
+              "RelativeToolTip": "Timothy_02_interfce\u0026abstract\\Program.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T09:45:51.554Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -43,68 +40,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Calculator.cs",
-              "DocumentMoniker": "D:\\Project\\CSWPF\\ClassLib\\MyNamespace\\Calculator.cs",
-              "RelativeDocumentMoniker": "ClassLib\\MyNamespace\\Calculator.cs",
-              "ToolTip": "D:\\Project\\CSWPF\\ClassLib\\MyNamespace\\Calculator.cs",
-              "RelativeToolTip": "ClassLib\\MyNamespace\\Calculator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T02:22:04.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Project\\CSWPF\\Timthy_01\\Program.cs",
-              "RelativeDocumentMoniker": "Timthy_01\\Program.cs",
-              "ToolTip": "D:\\Project\\CSWPF\\Timthy_01\\Program.cs",
-              "RelativeToolTip": "Timthy_01\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T02:47:47.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Project\\CSWPF\\TestDll\\Program.cs",
-              "RelativeDocumentMoniker": "TestDll\\Program.cs",
-              "ToolTip": "D:\\Project\\CSWPF\\TestDll\\Program.cs",
-              "RelativeToolTip": "TestDll\\Program.cs",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAIwJUAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T09:23:07.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CppDll.cpp",
-              "DocumentMoniker": "D:\\Project\\CSWPF\\lib\\cppdll\\CppDll.cpp",
-              "RelativeDocumentMoniker": "lib\\cppdll\\CppDll.cpp",
-              "ToolTip": "D:\\Project\\CSWPF\\lib\\cppdll\\CppDll.cpp",
-              "RelativeToolTip": "lib\\cppdll\\CppDll.cpp",
-              "ViewState": "AQIAAB8AAAAAAAAAAAASwFsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-02T08:43:28.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CppDll.h",
-              "DocumentMoniker": "D:\\Project\\CSWPF\\lib\\cppdll\\CppDll.h",
-              "RelativeDocumentMoniker": "lib\\cppdll\\CppDll.h",
-              "ToolTip": "D:\\Project\\CSWPF\\lib\\cppdll\\CppDll.h",
-              "RelativeToolTip": "lib\\cppdll\\CppDll.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC0AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-02T08:23:01.231Z"
             }
           ]
         }

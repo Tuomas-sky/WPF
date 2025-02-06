@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timthy_01", "Timthy_01\Timt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLib", "ClassLib\ClassLib.csproj", "{E024855B-70CE-48B2-87DC-CACA25E336F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timothy_02_interfce&abstract", "Timothy_02_interfce&abstract\Timothy_02_interfce&abstract.csproj", "{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -265,6 +267,18 @@ Global
 		{E024855B-70CE-48B2-87DC-CACA25E336F4}.Release|x64.Build.0 = Release|Any CPU
 		{E024855B-70CE-48B2-87DC-CACA25E336F4}.Release|x86.ActiveCfg = Release|Any CPU
 		{E024855B-70CE-48B2-87DC-CACA25E336F4}.Release|x86.Build.0 = Release|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Debug|x64.Build.0 = Debug|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Debug|x86.Build.0 = Debug|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Release|x64.ActiveCfg = Release|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Release|x64.Build.0 = Release|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Release|x86.ActiveCfg = Release|Any CPU
+		{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
