@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = framework_03_command_02
-build_property.ProjectDir = D:\Project\CSWPF\framework_03_command_02\
+build_property.ProjectDir = D:\Project\CSharp\framework_03_command_02\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

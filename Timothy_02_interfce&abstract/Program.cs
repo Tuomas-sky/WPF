@@ -10,10 +10,12 @@ namespace Timothy_02_interfce_abstract
     {
         static void Main(string[] args)
         {
-            Vehical v = new RaceCar();
-            v.Run();
-            v.Stop();
-            v.Fill();
+            //Vehical v = new RaceCar();
+            //v.Run();
+            //v.Stop();
+            //v.Fill();
+            User user = new User(new Ximi());
+            user.U();
         }
     }
 

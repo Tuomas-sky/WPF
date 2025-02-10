@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\CSWPF\\",
+  "WorkspaceRootPath": "D:\\Project\\CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}|Timothy_02_interfce\u0026abstract\\Timothy_02_interfce\u0026abstract.csproj|d:\\project\\cswpf\\timothy_02_interfce\u0026abstract\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D73BF416-9B3C-4E3A-B729-8B961F08B4B3}|Timothy_02_interfce\u0026abstract\\Timothy_02_interfce\u0026abstract.csproj|solutionrelative:timothy_02_interfce\u0026abstract\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BF054FD-3FEF-40D1-96F4-8E75EA7E04E3}|Timothy_04_generic_partial\\Timothy_04_generic_partial.csproj|d:\\project\\csharp\\timothy_04_generic_partial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF054FD-3FEF-40D1-96F4-8E75EA7E04E3}|Timothy_04_generic_partial\\Timothy_04_generic_partial.csproj|solutionrelative:timothy_04_generic_partial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Project\\CSWPF\\Timothy_02_interfce\u0026abstract\\Program.cs",
-              "RelativeDocumentMoniker": "Timothy_02_interfce\u0026abstract\\Program.cs",
-              "ToolTip": "D:\\Project\\CSWPF\\Timothy_02_interfce\u0026abstract\\Program.cs*",
-              "RelativeToolTip": "Timothy_02_interfce\u0026abstract\\Program.cs*",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:45:51.554Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -40,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\CSharp\\Timothy_04_generic_partial\\Program.cs",
+              "RelativeDocumentMoniker": "Timothy_04_generic_partial\\Program.cs",
+              "ToolTip": "D:\\Project\\CSharp\\Timothy_04_generic_partial\\Program.cs",
+              "RelativeToolTip": "Timothy_04_generic_partial\\Program.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T07:49:40.87Z",
+              "EditorCaption": ""
             }
           ]
         }

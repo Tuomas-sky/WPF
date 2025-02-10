@@ -8243,11 +8243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\CSWPF\\framework_03_command\\framework_03_command.csproj",
+      "projectUniqueName": "D:\\Project\\CSharp\\framework_03_command\\framework_03_command.csproj",
       "projectName": "framework_03_command",
-      "projectPath": "D:\\Project\\CSWPF\\framework_03_command\\framework_03_command.csproj",
+      "projectPath": "D:\\Project\\CSharp\\framework_03_command\\framework_03_command.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\CSWPF\\framework_03_command\\obj\\",
+      "outputPath": "D:\\Project\\CSharp\\framework_03_command\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

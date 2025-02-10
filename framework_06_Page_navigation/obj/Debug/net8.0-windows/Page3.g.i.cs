@@ -61,7 +61,7 @@ namespace framework_06_Page_navigation {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/framework_06_Page_navigation;component/page3.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/framework_06_Page_navigation;V1.0.0.0;component/page3.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Page3.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

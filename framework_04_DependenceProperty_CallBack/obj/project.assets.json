@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\CSWPF\\framework_04_DependenceProperty_CallBack\\framework_04_DependencyProperty_CallBack.csproj",
+      "projectUniqueName": "D:\\Project\\CSharp\\framework_04_DependenceProperty_CallBack\\framework_04_DependencyProperty_CallBack.csproj",
       "projectName": "framework_04_DependencyProperty_CallBack",
-      "projectPath": "D:\\Project\\CSWPF\\framework_04_DependenceProperty_CallBack\\framework_04_DependencyProperty_CallBack.csproj",
+      "projectPath": "D:\\Project\\CSharp\\framework_04_DependenceProperty_CallBack\\framework_04_DependencyProperty_CallBack.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\CSWPF\\framework_04_DependenceProperty_CallBack\\obj\\",
+      "outputPath": "D:\\Project\\CSharp\\framework_04_DependenceProperty_CallBack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

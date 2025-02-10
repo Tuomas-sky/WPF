@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BabyStroller.SDK">
+      <HintPath>..\SDK\BabyStroller.SDK.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,7 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cat.cs" />
     <Compile Include="Classes\MyLib.cs" />
+    <Compile Include="Dog.cs" />
     <Compile Include="MyNamespace2\Student.cs" />
     <Compile Include="MyNamespace\Calculator.cs" />
     <Compile Include="OOPoverride\Override.cs" />

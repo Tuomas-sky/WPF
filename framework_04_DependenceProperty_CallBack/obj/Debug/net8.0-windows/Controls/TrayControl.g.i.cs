@@ -61,7 +61,8 @@ namespace framework_04_DependencyProperty_CallBack.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/framework_04_DependencyProperty_CallBack;component/controls/traycontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/framework_04_DependencyProperty_CallBack;V1.0.0.0;component/controls/traycontrol" +
+                    ".xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\TrayControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

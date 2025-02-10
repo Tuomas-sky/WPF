@@ -61,7 +61,7 @@ namespace framework_04_DependencyProperty.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/framework_04_DependencyProperty;component/controls/widget.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/framework_04_DependencyProperty;V1.0.0.0;component/controls/widget.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\Widget.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\CSWPF\\framework_06_page\\framework_06_page.csproj": {}
+    "D:\\Project\\CSharp\\framework_06_page\\framework_06_page.csproj": {}
   },
   "projects": {
-    "D:\\Project\\CSWPF\\framework_06_page\\framework_06_page.csproj": {
+    "D:\\Project\\CSharp\\framework_06_page\\framework_06_page.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\CSWPF\\framework_06_page\\framework_06_page.csproj",
+        "projectUniqueName": "D:\\Project\\CSharp\\framework_06_page\\framework_06_page.csproj",
         "projectName": "framework_06_page",
-        "projectPath": "D:\\Project\\CSWPF\\framework_06_page\\framework_06_page.csproj",
+        "projectPath": "D:\\Project\\CSharp\\framework_06_page\\framework_06_page.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\CSWPF\\framework_06_page\\obj\\",
+        "outputPath": "D:\\Project\\CSharp\\framework_06_page\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

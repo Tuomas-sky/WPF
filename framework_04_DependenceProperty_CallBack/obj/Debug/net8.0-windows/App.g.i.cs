@@ -59,7 +59,7 @@ namespace framework_04_DependenceProperty_CallBack {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/framework_04_DependencyProperty_CallBack;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/framework_04_DependencyProperty_CallBack;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

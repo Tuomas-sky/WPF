@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\CSWPF\\framework_03_command_02\\framework_03_command_02.csproj",
+      "projectUniqueName": "D:\\Project\\CSharp\\framework_03_command_02\\framework_03_command_02.csproj",
       "projectName": "framework_03_command_02",
-      "projectPath": "D:\\Project\\CSWPF\\framework_03_command_02\\framework_03_command_02.csproj",
+      "projectPath": "D:\\Project\\CSharp\\framework_03_command_02\\framework_03_command_02.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\CSWPF\\framework_03_command_02\\obj\\",
+      "outputPath": "D:\\Project\\CSharp\\framework_03_command_02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
