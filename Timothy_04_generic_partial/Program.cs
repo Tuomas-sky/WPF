@@ -10,86 +10,87 @@ namespace Timothy_04_generic_partial
     {
         static void Main(string[] args)
         {
-            //泛型类
-            Apple apple = new Apple() { Color = "Red" };
-            Book book = new Book() { Name = "New Book" };
-            Box<Apple> box1 = new Box<Apple>() { Cargo=apple};
-            Box<Book> box2 = new Box<Book>() {Cargo=book};
-            Console.WriteLine(box1.Cargo.Color);
-            Console.WriteLine(box2.Cargo.Name);
-            Console.WriteLine("======================================");
+ #if false
+            {
+                //泛型类
+                Apple apple = new Apple() { Color = "Red" };
+                Book book = new Book() { Name = "New Book" };
+                Box<Apple> box1 = new Box<Apple>() { Cargo = apple };
+                Box<Book> box2 = new Box<Book>() { Cargo = book };
+                Console.WriteLine(box1.Cargo.Color);
+                Console.WriteLine(box2.Cargo.Name);
+                Console.WriteLine("======================================");
 
-            //泛型接口
-            Stu1<int> stu1 = new Stu1<int>();
-            stu1.Id = 1;stu1.Name = "Tim";
-            Stu2 stu2 = new Stu2();
-            stu2.Id = 2; stu2.Name = "Tom";
-            Console.WriteLine(stu1.Name);
-            Console.WriteLine(stu2.Name);
-            Console.WriteLine("======================================");
+                //泛型接口
+                Stu1<int> stu1 = new Stu1<int>();
+                stu1.Id = 1; stu1.Name = "Tim";
+                Stu2 stu2 = new Stu2();
+                stu2.Id = 2; stu2.Name = "Tom";
+                Console.WriteLine(stu1.Name);
+                Console.WriteLine(stu2.Name);
+                Console.WriteLine("======================================");
 
-            //泛型集合
-            IDictionary<int,string> dict = new Dictionary<int,string>();
-            dict[1] = "cpp";
-            dict[2] = "csharp";
-            Console.WriteLine($"#1 is {dict[1]}");
-            Console.WriteLine($"#2 is {dict[2]}");
-            Console.WriteLine("======================================");
+                //泛型集合
+                IDictionary<int, string> dict = new Dictionary<int, string>();
+                dict[1] = "cpp";
+                dict[2] = "csharp";
+                Console.WriteLine($"#1 is {dict[1]}");
+                Console.WriteLine($"#2 is {dict[2]}");
+                Console.WriteLine("======================================");
 
-            //泛型方法
-            int[] ints = { 1, 2, 3, 4 };
-            int[] ints2 = { 1,2,3,4 };
-            double[] doubles = { 1.1, 2.2, 3.3 };
-            double[] doubles2 = { 1.1, 2.2, 3.3 };
-            var zip = Zipped(ints, ints2);
-            Console.WriteLine(string.Join(",",zip));
-            var zip2 = Zipped(doubles, doubles2);
-            Console.WriteLine(string.Join(",", zip2));
-            Console.WriteLine("======================================");
+                //泛型方法
+                int[] ints = { 1, 2, 3, 4 };
+                int[] ints2 = { 1, 2, 3, 4 };
+                double[] doubles = { 1.1, 2.2, 3.3 };
+                double[] doubles2 = { 1.1, 2.2, 3.3 };
+                var zip = Zipped(ints, ints2);
+                Console.WriteLine(string.Join(",", zip));
+                var zip2 = Zipped(doubles, doubles2);
+                Console.WriteLine(string.Join(",", zip2));
+                Console.WriteLine("======================================");
 
-            //泛型委托 Action & Func
-            Action<string> say = new Action<string>(Say);
-            say.Invoke("Tim");
-            Func<int,int,int> add = new Func<int, int, int>(Add);
-            var res = add(1,2);
-            Console.WriteLine(res);
-            Func<double, double, double> sub =(x, y) => { return x - y; };
-            Console.WriteLine(sub(20,10));
-            //自定义
-            MyDele<int> mydele = new MyDele<int>(Add);
-            var res2 = mydele(10,20);
-            Console.WriteLine(res2);
+                //泛型委托 Action & Func
+                Action<string> say = new Action<string>(Say);
+                say.Invoke("Tim");
+                Func<int, int, int> add = new Func<int, int, int>(Add);
+                var res = add(1, 2);
+                Console.WriteLine(res);
+                Func<double, double, double> sub = (x, y) => { return x - y; };
+                Console.WriteLine(sub(20, 10));
+                //自定义
+                MyDele<int> mydele = new MyDele<int>(Add);
+                var res2 = mydele(10, 20);
+                Console.WriteLine(res2);
 
-            DoDele((int a,int b) 
-                => { return a + b; },
-                100,200);
-            Console.WriteLine("======================================");
-            //L
+                DoDele((int a, int b)
+                    => { return a + b; },
+                    100, 200);
+                Console.WriteLine("======================================");
 
+                //enum
+                Person p = new Person();
+                p.Name = "Test";
+                p.Level = Level.Medium;
+                p.Skill = (Skill.Teach | Skill.Cook | Skill.Program | Skill.Drive);
+                Console.WriteLine((int)p.Skill);
+                Console.WriteLine((p.Skill & Skill.Program) == Skill.Program);
+                Console.WriteLine("======================================");
+                //struct,值类型copy的是一个完整的对象，和引用类型不同引用类型copy的是对同一个对象的引用
+                S s1 = new S() { Id = 1001, Name = "Dan" };
+                //装箱
+                object obj = s1;
+                //拆箱
+                S s2 = (S)obj;
+                S s3 = s1;//copy的是完整对象，不是对同一个对象的引用---值类型
+                s3.Id = 2002;
+                s3.Name = "Jenny";
+                Console.WriteLine($"Id=#{s1.Id} , name={s1.Name}");
+                Console.WriteLine($"Id=#{s3.Id} , name={s3.Name}");
+                s1.Speak();
+                Console.WriteLine("======================================");
+            }
+        #endif
 
-
-
-            //enum
-            Person p = new Person();
-            p.Name = "Test";
-            p.Level = Level.Medium;
-            p.Skill = (Skill.Teach | Skill.Cook | Skill.Program | Skill.Drive);
-            Console.WriteLine((int)p.Skill);
-            Console.WriteLine((p.Skill & Skill.Program) == Skill.Program);
-            Console.WriteLine("======================================");
-            //struct,值类型copy的是一个完整的对象，和引用类型不同引用类型copy的是对同一个对象的引用
-            S s1 = new S() { Id = 1001,Name="Dan" };
-            //装箱
-            object obj = s1;
-            //拆箱
-            S s2 = (S)obj;
-            S s3 = s1;//copy的是完整对象，不是对同一个对象的引用---值类型
-            s3.Id = 2002;
-            s3.Name = "Jenny";
-            Console.WriteLine($"Id=#{s1.Id} , name={s1.Name}");
-            Console.WriteLine($"Id=#{s3.Id} , name={s3.Name}");
-            s1.Speak();
-            Console.WriteLine("======================================");
 
 
 
@@ -127,6 +128,9 @@ namespace Timothy_04_generic_partial
             return zipped;
         }
     }
+
+
+
 
     //枚举和结构
     //enum

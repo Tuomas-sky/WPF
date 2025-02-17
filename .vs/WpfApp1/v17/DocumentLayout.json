@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Project\\CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BF054FD-3FEF-40D1-96F4-8E75EA7E04E3}|Timothy_04_generic_partial\\Timothy_04_generic_partial.csproj|d:\\project\\csharp\\timothy_04_generic_partial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BF054FD-3FEF-40D1-96F4-8E75EA7E04E3}|Timothy_04_generic_partial\\Timothy_04_generic_partial.csproj|solutionrelative:timothy_04_generic_partial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7E452AA-6BF7-41E0-97C5-1388D2111A71}|zhangda_bili_base01\\zhangda_bili_base01.csproj|d:\\project\\csharp\\zhangda_bili_base01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E452AA-6BF7-41E0-97C5-1388D2111A71}|zhangda_bili_base01\\zhangda_bili_base01.csproj|solutionrelative:zhangda_bili_base01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E452AA-6BF7-41E0-97C5-1388D2111A71}|zhangda_bili_base01\\zhangda_bili_base01.csproj|d:\\project\\csharp\\zhangda_bili_base01\\data\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E452AA-6BF7-41E0-97C5-1388D2111A71}|zhangda_bili_base01\\zhangda_bili_base01.csproj|solutionrelative:zhangda_bili_base01\\data\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +34,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Common.cs",
+              "DocumentMoniker": "D:\\Project\\CSharp\\zhangda_bili_base01\\Data\\Common.cs",
+              "RelativeDocumentMoniker": "zhangda_bili_base01\\Data\\Common.cs",
+              "ToolTip": "D:\\Project\\CSharp\\zhangda_bili_base01\\Data\\Common.cs",
+              "RelativeToolTip": "zhangda_bili_base01\\Data\\Common.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAAG4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T01:32:28.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Project\\CSharp\\Timothy_04_generic_partial\\Program.cs",
-              "RelativeDocumentMoniker": "Timothy_04_generic_partial\\Program.cs",
-              "ToolTip": "D:\\Project\\CSharp\\Timothy_04_generic_partial\\Program.cs",
-              "RelativeToolTip": "Timothy_04_generic_partial\\Program.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEIAAAAPAAAA",
+              "DocumentMoniker": "D:\\Project\\CSharp\\zhangda_bili_base01\\Program.cs",
+              "RelativeDocumentMoniker": "zhangda_bili_base01\\Program.cs",
+              "ToolTip": "D:\\Project\\CSharp\\zhangda_bili_base01\\Program.cs*",
+              "RelativeToolTip": "zhangda_bili_base01\\Program.cs*",
+              "ViewState": "AQIAAAACAAAAAAAAAAASwBoCAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T07:49:40.87Z",
+              "WhenOpened": "2025-02-14T01:47:43.229Z",
               "EditorCaption": ""
             }
           ]
